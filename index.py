@@ -14,6 +14,7 @@ REQUIRED_FIELDS = [
     "GRAVADO", "NO_GRAVADO", "EXENTO", "DESCUENTOS",
     "COMP_GENERADOS", "COMP_CANCELADOS", "IVA", "TOTAL"
 ]
+MAX_LENGTH = 300
 
 
 def sanitize_ground_truth(gt_dict):
@@ -28,25 +29,17 @@ def sanitize_ground_truth(gt_dict):
     return sanitized
 
 def json2token(obj, new_special_tokens):
-    """
-     Convierte un objeto JSON de anotaciones en una secuencia Donut con tokens
-    <s_KEY>valor</s_KEY>.
-     new_special_tokens será llenado con los tokens usados.
-     """
     if isinstance(obj, dict):
         output = ""
-        for k in sorted(obj.keys(), reverse=True):
-            # Agregar tokens especiales para esta clave si no existen
-            start_token = f"<s_{k}>"
-            end_token = f"</s_{k}>"
-            if start_token not in new_special_tokens:
-                new_special_tokens.extend([start_token, end_token])
-            # Llamada recursiva para soportar objetos anidados (no aplicará aquí si los valores son strings/números)
-            output += start_token + json2token(obj[k], new_special_tokens) + end_token
+        # USAR ORDEN FIJO EN LUGAR DE ALFABÉTICO
+        for k in REQUIRED_FIELDS:  # Orden consistente y lógico
+            if k in obj:
+                start_token = f"<s_{k}>"
+                end_token = f"</s_{k}>"
+                if start_token not in new_special_tokens:
+                    new_special_tokens.extend([start_token, end_token])
+                output += start_token + json2token(obj[k], new_special_tokens) + end_token
         return output
-    elif isinstance(obj, list):
-        # En caso de listas (por si acaso), unir con separador <sep/>
-        return "<sep/>".join(json2token(item, new_special_tokens) for item in obj)
     else:
         return str(obj)
 
@@ -115,7 +108,7 @@ processor.tokenizer.add_special_tokens({"additional_special_tokens": all_special
 # Ajustar resolución de imágenes (ancho, alto)
 processor.feature_extractor.size = {"height": CONST_TARGET_SIZE["height"], "width": CONST_TARGET_SIZE["width"]}
 processor.feature_extractor.do_resize = True
-processor.feature_extractor.do_align_long_axis = False
+processor.feature_extractor.do_align_long_axis = True
 
 
 def transform(sample):
@@ -132,11 +125,11 @@ def transform(sample):
   print("Original size:", image.size)  # (ancho, alto)
   # pixel_values = processor(image, random_padding=(False),return_tensors="pt").pixel_values.squeeze()
   processed = processor(image, return_tensors="pt")
-  pixel_values = processed.pixel_values
-
+  pixel_values = processed.pixel_values.squeeze(0)
   print("Procesado shape:", pixel_values.shape)
 
-  inputs = processor.tokenizer(sample["text"],add_special_tokens=False,padding="max_length",truncation=True,max_length=86,return_tensors="pt")
+
+  inputs = processor.tokenizer(sample["text"],add_special_tokens=False,padding="max_length",truncation=True,max_length=MAX_LENGTH,return_tensors="pt")
   input_ids = inputs.input_ids.squeeze(0)
   # Crear etiquetas: copiar input_ids y poner -100 en los pads para ignorarlos
   labels = input_ids.clone()
@@ -164,7 +157,7 @@ print("window_size:", model.config.encoder.window_size)
 model.config.decoder_start_token_id = processor.tokenizer.convert_tokens_to_ids(task_start)
 model.config.pad_token_id = processor.tokenizer.pad_token_id
 model.config.eos_token_id = processor.tokenizer.eos_token_id
-model.config.decoder.max_length = 86
+model.config.decoder.max_length = MAX_LENGTH
 
 print("Model Encoder Image Size:", model.config.encoder.image_size) # <-- Añadir verificación
 print("Model Encoder Patch Size:", model.config.encoder.patch_size) # <-- Añadir verificación
@@ -173,12 +166,12 @@ print("Model Encoder Window Size:", model.config.encoder.window_size) # <-- Aña
 training_args = Seq2SeqTrainingArguments(
   output_dir="C:\\Users\\sanmi\\Documents\\Proyectos\\DonutModel\\models\\donut-ticket-fiscal-v0",
   num_train_epochs=10,
-  per_device_train_batch_size=2,
-  per_device_eval_batch_size=2,
+  per_device_train_batch_size=1,
+  per_device_eval_batch_size=1,
   learning_rate=3e-5,
   weight_decay=0.01,
   predict_with_generate=True,
-  generation_max_length=86,
+  generation_max_length=MAX_LENGTH,
   generation_num_beams=1,
   logging_steps=50,
   eval_steps=72,               # evalúa al final de cada época
@@ -190,7 +183,7 @@ training_args = Seq2SeqTrainingArguments(
   load_best_model_at_end= True,
   metric_for_best_model="eval_loss",
   warmup_steps=50,
-  gradient_accumulation_steps=2  # duplica el batch size efectivo
+  gradient_accumulation_steps=4  # duplica el batch size efectivo
 )
 
 def collate_fn(batch):
