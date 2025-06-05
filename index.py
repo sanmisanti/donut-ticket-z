@@ -3,8 +3,6 @@ from transformers import DonutProcessor, VisionEncoderDecoderModel, Seq2SeqTrain
 from PIL import Image
 import json
 from datasets import Dataset, Features, Image, Value
-import os
-from torchvision.utils import save_image
 
 
 
@@ -52,14 +50,13 @@ def json2token(obj, new_special_tokens):
     else:
         return str(obj)
 
-ds_train_raw = json.loads(open("/content/drive/MyDrive/donut_project/dataset/train.json", encoding='utf-8').read())
+ds_train_raw = json.loads(open("C:\\Users\\sanmi\\Documents\\Proyectos\\DonutModel\\train.json", encoding='utf-8').read())
 processed = []
 for entry in ds_train_raw:
     gt = entry["ground_truth"]
     sanitized_gt = sanitize_ground_truth(gt)
     seq = "<s>" + json2token(sanitized_gt, NEW_SPECIAL_TOKENS) + "</s>"
     processed.append({"file_name": entry["file_name"], "text": seq})
-print(processed)
 
 # Crear listas de rutas de imagen y textos
 image_paths = [f"C:\\Users\\sanmi\\Documents\\Proyectos\\DonutModel\\train_images\\{e['file_name']}" for e in processed]
@@ -71,17 +68,16 @@ features = Features({"image": Image(), "text": Value("string")})
 # Crear Dataset
 ds_train = Dataset.from_dict({"image": image_paths, "text": texts},features=features)
 
-ds_val_raw = json.loads(open("/content/drive/MyDrive/donut_project/dataset/val.json", encoding='utf-8').read())
+ds_val_raw = json.loads(open("C:\\Users\\sanmi\\Documents\\Proyectos\\DonutModel\\val.json", encoding='utf-8').read())
 processed = []
 for entry in ds_val_raw:
     gt = entry["ground_truth"]
     sanitized_gt = sanitize_ground_truth(gt)
     seq = "<s>" + json2token(sanitized_gt, NEW_SPECIAL_TOKENS) + "</s>"
     processed.append({"file_name": entry["file_name"], "text": seq})
-print(processed[0])
 
 # Crear listas de rutas de imagen y textos
-image_paths = [f"/content/drive/MyDrive/donut_project/dataset/train_images/{e['file_name']}" for e in processed]
+image_paths = [f"C:\\Users\\sanmi\\Documents\\Proyectos\\DonutModel\\train_images\\{e['file_name']}" for e in processed]
 texts = [e['text'] for e in processed]
 
 # Definir schema con imagen y texto
@@ -90,18 +86,16 @@ features = Features({"image": Image(), "text": Value("string")})
 # Crear Dataset
 ds_val = Dataset.from_dict({"image": image_paths, "text": texts},features=features)
 
-ds_test_raw = json.loads(open("/content/drive/MyDrive/donut_project/dataset/test.json", encoding='utf-8').read())
+ds_test_raw = json.loads(open("C:\\Users\\sanmi\\Documents\\Proyectos\\DonutModel\\test.json", encoding='utf-8').read())
 processed = []
 for entry in ds_test_raw:
     gt = entry["ground_truth"]
     sanitized_gt = sanitize_ground_truth(gt)
     seq = "<s>" + json2token(sanitized_gt, NEW_SPECIAL_TOKENS) + "</s>"
     processed.append({"file_name": entry["file_name"], "text": seq})
-print(processed[0])
-
 
 # Crear listas de rutas de imagen y textos
-image_paths = [f"/content/drive/MyDrive/donut_project/dataset/train_images/{e['file_name']}" for e in processed]
+image_paths = [f"C:\\Users\\sanmi\\Documents\\Proyectos\\DonutModel\\train_images\\{e['file_name']}" for e in processed]
 texts = [e['text'] for e in processed]
 
 # Definir schema con imagen y texto
@@ -147,7 +141,6 @@ def transform(sample):
   # Crear etiquetas: copiar input_ids y poner -100 en los pads para ignorarlos
   labels = input_ids.clone()
   labels[labels == processor.tokenizer.pad_token_id] = -100
-  print(pixel_values.shape)
   return {"pixel_values": pixel_values, "labels": labels, "target_sequence":sample["text"]}
 
 
@@ -176,10 +169,6 @@ model.config.decoder.max_length = 86
 print("Model Encoder Image Size:", model.config.encoder.image_size) # <-- Añadir verificación
 print("Model Encoder Patch Size:", model.config.encoder.patch_size) # <-- Añadir verificación
 print("Model Encoder Window Size:", model.config.encoder.window_size) # <-- Añadir verificación
-
-print("ID 0 →", processor.tokenizer.convert_ids_to_tokens(0))
-print("ID 1 →", processor.tokenizer.convert_ids_to_tokens(1))
-print("ID 2 →", processor.tokenizer.convert_ids_to_tokens(2))
 
 training_args = Seq2SeqTrainingArguments(
   output_dir="C:\\Users\\sanmi\\Documents\\Proyectos\\DonutModel\\models\\donut-ticket-fiscal-v0",
@@ -237,8 +226,9 @@ trainer = Seq2SeqTrainer(
     data_collator=collate_fn        # solucionamos el error aquí
 )
 
+trainer.train()
 # Asumiendo que `model` y `processor` son los objetos que usaste para entrenar
-save_dir = "/content/drive/MyDrive/donut_project/dataset/modelo-final-10epochs"
+save_dir = "C:\\Users\\sanmi\\Documents\\Proyectos\\DonutModel\\models\\modelo-final-v0"
 model.save_pretrained(save_dir)
 processor.save_pretrained(save_dir)
 
