@@ -1,0 +1,2672 @@
+[
+  {
+    "file_name": "archivo_203.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "10/03/2023",
+      "NUMERO_DOCUMENTO": "00000261",
+      "PRIMER_COMPROBANTE": "00006577",
+      "ULTIMO_COMPROBANTE": "00006604",
+      "GRAVADO": "242809.90",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000028",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "50990.10",
+      "TOTAL": "293800.00"
+    }
+  },
+  {
+    "file_name": "archivo_64.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "18/10/2023",
+      "NUMERO_DOCUMENTO": "00000444",
+      "PRIMER_COMPROBANTE": "00011318",
+      "ULTIMO_COMPROBANTE": "00011341",
+      "GRAVADO": "468264.48",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000024",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "98335.52",
+      "TOTAL": "566600.00"
+    }
+  },
+  {
+    "file_name": "archivo_191.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000299",
+      "FECHA": "26/04/2023",
+      "PRIMER_COMPROBANTE": "00007300",
+      "ULTIMO_COMPROBANTE": "00007319",
+      "GRAVADO": "254462.81",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000020",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "53437.19",
+      "TOTAL": "307900.00"
+    }
+  },
+  {
+    "file_name": "archivo_103.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000374",
+      "FECHA": "26/07/2023",
+      "PRIMER_COMPROBANTE": "00009726",
+      "ULTIMO_COMPROBANTE": "0009742",
+      "GRAVADO": "381322.32",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "0000017",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "80077.68",
+      "TOTAL": "461400.00"
+    }
+  },
+  {
+    "file_name": "archivo_75.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000379",
+      "FECHA": "01/08/2023",
+      "PRIMER_COMPROBANTE": "00009820",
+      "ULTIMO_COMPROBANTE": "00009831",
+      "GRAVADO": "163719.01",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000012",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "4380.99",
+      "TOTAL": "198100.00"
+    }
+  },
+  {
+    "file_name": "archivo_134.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "16/06/2023",
+      "NUMERO_DOCUMENTO": "00000341",
+      "PRIMER_COMPROBANTE": "00008492",
+      "ULTIMO_COMPROBANTE": "00008675",
+      "GRAVADO": "2812677.63",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000184",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "590662.37",
+      "TOTAL": "3403340.00"
+    }
+  },
+  {
+    "file_name": "archivo_98.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "28/08/2023",
+      "NUMERO_DOCUMENTO": "00000402",
+      "PRIMER_COMPROBANTE": "00010242",
+      "ULTIMO_COMPROBANTE": "00010253",
+      "GRAVADO": "204958.68",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000012",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "43041.32",
+      "TOTAL": "248000.00"
+    }
+  },
+  {
+    "file_name": "archivo_138.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000337",
+      "FECHA": "12/06/2023",
+      "PRIMER_COMPROBANTE": "00008236",
+      "ULTIMO_COMPROBANTE": "00008269",
+      "GRAVADO": "512066.10",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000034",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "107533.90",
+      "TOTAL": "619600.00"
+    }
+  },
+  {
+    "file_name": "archivo_167.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "06/05/2023",
+      "NUMERO_DOCUMENTO": "00000307",
+      "PRIMER_COMPROBANTE": "00007475",
+      "ULTIMO_COMPROBANTE": "00007518",
+      "GRAVADO": "611727.25",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000044",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "128462.75",
+      "TOTAL": "740190.00"
+    }
+  },
+  {
+    "file_name": "archivo_176.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "08/04/2023",
+      "NUMERO_DOCUMENTO": "00000284",
+      "PRIMER_COMPROBANTE": "00006997",
+      "ULTIMO_COMPROBANTE": "00007038",
+      "GRAVADO": "564950.39",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000042",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "118639.61",
+      "TOTAL": "683590.00"
+    }
+  },
+  {
+    "file_name": "archivo_184.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "17/04/2023",
+      "NUMERO_DOCUMENTO": "00000291",
+      "PRIMER_COMPROBANTE": "00007166",
+      "ULTIMO_COMPROBANTE": "00007180",
+      "GRAVADO": "191570.25",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000015",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "40229.75",
+      "TOTAL": "231800.00"
+    }
+  },
+  {
+    "file_name": "archivo_171.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000279",
+      "FECHA": "01/04/2023",
+      "PRIMER_COMPROBANTE": "00006897",
+      "ULTIMO_COMPROBANTE": "00006926",
+      "GRAVADO": "296520.63",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000030",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "62269.37",
+      "TOTAL": "358790.00"
+    }
+  },
+  {
+    "file_name": "archivo_214.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "25/03/2023",
+      "NUMERO_DOCUMENTO": "00000273",
+      "PRIMER_COMPROBANTE": "00006810",
+      "ULTIMO_COMPROBANTE": "00006832",
+      "GRAVADO": "224297.51",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000023",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "47102.49",
+      "TOTAL": "271400.00"
+    }
+  },
+  {
+    "file_name": "archivo_136.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "14/06/2023",
+      "NUMERO_DOCUMENTO": "00000339",
+      "PRIMER_COMPROBANTE": "00008316",
+      "ULTIMO_COMPROBANTE": "00008392",
+      "GRAVADO": "1155289.29",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000077",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "242610.71",
+      "TOTAL": "1397900.00"
+    }
+  },
+  {
+    "file_name": "archivo_89.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000393",
+      "FECHA": "16/08/2023",
+      "PRIMER_COMPROBANTE": "00010068",
+      "ULTIMO_COMPROBANTE": "00010085",
+      "GRAVADO": "314049.60",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "09000018",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "65950.40",
+      "TOTAL": "380000.00"
+    }
+  },
+  {
+    "file_name": "archivo_180.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "13/04/2023",
+      "NUMERO_DOCUMENTO": "00000288",
+      "PRIMER_COMPROBANTE": "00007090",
+      "ULTIMO_COMPROBANTE": "00007111",
+      "GRAVADO": "256528.91",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000022",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "53871.09",
+      "TOTAL": "310400.00"
+    }
+  },
+  {
+    "file_name": "archivo_125.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000350",
+      "FECHA": "28/06/2023",
+      "PRIMER_COMPROBANTE": "00009129",
+      "ULTIMO_COMPROBANTE": "00009147",
+      "GRAVADO": "152066.13",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000019",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "31933.87",
+      "TOTAL": "184000.00"
+    }
+  },
+  {
+    "file_name": "archivo_44.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "06/11/2023",
+      "NUMERO_DOCUMENTO": "00000460",
+      "PRIMER_COMPROBANTE": "00011740",
+      "ULTIMO_COMPROBANTE": "00011763",
+      "GRAVADO": "330909.12",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000024",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "69490.88",
+      "TOTAL": "400400.00"
+    }
+  },
+  {
+    "file_name": "archivo_217.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "29/03/2023",
+      "NUMERO_DOCUMENTO": "00000276",
+      "PRIMER_COMPROBANTE": "00006861",
+      "ULTIMO_COMPROBANTE": "00006872",
+      "GRAVADO": "139578.51",
+      "NO_GRAVADO": "GRAVADO",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000012",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "29311.49",
+      "TOTAL": "168890.00"
+    }
+  },
+  {
+    "file_name": "archivo_62.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "14/10/2023",
+      "NUMERO_DOCUMENTO": "00000442",
+      "PRIMER_COMPROBANTE": "00011250",
+      "ULTIMO_COMPROBANTE": "00011300",
+      "GRAVADO": "1005702.48",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000051",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "211197.53",
+      "TOTAL": "1216900.01"
+    }
+  },
+  {
+    "file_name": "archivo_114.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000362",
+      "FECHA": "12/07/2023",
+      "PRIMER_COMPROBANTE": "00009435",
+      "ULTIMO_COMPROBANTE": "00009454",
+      "GRAVADO": "312148.74",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000020",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "65551.26",
+      "TOTAL": "377700.00"
+    }
+  },
+  {
+    "file_name": "archivo_243.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000224",
+      "FECHA": "25/01/2023",
+      "PRIMER_COMPROBANTE": "00005804",
+      "ULTIMO_COMPROBANTE": "00005812",
+      "GRAVADO": "68429.74",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000009",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "14370.26",
+      "TOTAL": "82800.00"
+    }
+  },
+  {
+    "file_name": "archivo_199.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000257",
+      "FECHA": "06/03/2023",
+      "PRIMER_COMPROBANTE": "00006516",
+      "ULTIMO_COMPROBANTE": "00006532",
+      "GRAVADO": "128917.35",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000017",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "21072.65",
+      "TOTAL": "155990.00"
+    }
+  },
+  {
+    "file_name": "archivo_181.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "14/04/2023",
+      "NUMERO_DOCUMENTO": "00000289",
+      "PRIMER_COMPROBANTE": "00007112",
+      "ULTIMO_COMPROBANTE": "00007138",
+      "GRAVADO": "341553.71",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000027",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "71726.29",
+      "TOTAL": "413280.00"
+    }
+  },
+  {
+    "file_name": "archivo_115.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "11/07/2023",
+      "NUMERO_DOCUMENTO": "00000361",
+      "PRIMER_COMPROBANTE": "00009409",
+      "ULTIMO_COMPROBANTE": "00009434",
+      "GRAVADO": "336115.70",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000026",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "70584.30",
+      "TOTAL": "406700.00"
+    }
+  },
+  {
+    "file_name": "archivo_234.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000234",
+      "FECHA": "06/02/2023",
+      "PRIMER_COMPROBANTE": "00006006",
+      "ULTIMO_COMPROBANTE": "00006027",
+      "GRAVADO": "238181.81",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000022",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "50018.19",
+      "TOTAL": "288200.00"
+    }
+  },
+  {
+    "file_name": "archivo_109.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "18/07/2023",
+      "NUMERO_DOCUMENTO": "00000367",
+      "PRIMER_COMPROBANTE": "00009551",
+      "ULTIMO_COMPROBANTE": "00009571",
+      "GRAVADO": "378016.52",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000021",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "79383.48",
+      "TOTAL": "457400.00"
+    }
+  },
+  {
+    "file_name": "archivo_117.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000359",
+      "FECHA": "08/07/2023",
+      "PRIMER_COMPROBANTE": "00009348",
+      "ULTIMO_COMPROBANTE": "00009382",
+      "GRAVADO": "444297.51",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000035",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "93302.49",
+      "TOTAL": "537600.00"
+    }
+  },
+  {
+    "file_name": "archivo_179.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "12/04/2023",
+      "NUMERO_DOCUMENTO": "00000287",
+      "PRIMER_COMPROBANTE": "00007070",
+      "ULTIMO_COMPROBANTE": "00007089",
+      "GRAVADO": "175041.33",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000020",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "36758.67",
+      "TOTAL": "211800.00"
+    }
+  },
+  {
+    "file_name": "archivo_122.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "03/07/2023",
+      "NUMERO_DOCUMENTO": "00000354",
+      "PRIMER_COMPROBANTE": "00009233",
+      "ULTIMO_COMPROBANTE": "00009250",
+      "GRAVADO": "284462.82",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000018",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "59737.18",
+      "TOTAL": "344200.00"
+    }
+  },
+  {
+    "file_name": "archivo_250.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "17/01/2023",
+      "NUMERO_DOCUMENTO": "00000217",
+      "PRIMER_COMPROBANTE": "00005680",
+      "ULTIMO_COMPROBANTE": "00005704",
+      "GRAVADO": "223636.37",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000025",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "46963.63",
+      "TOTAL": "270600.00"
+    }
+  },
+  {
+    "file_name": "archivo_182.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "15/04/2023",
+      "NUMERO_DOCUMENTO": "00000290",
+      "PRIMER_COMPROBANTE": "00007139",
+      "ULTIMO_COMPROBANTE": "00007165",
+      "GRAVADO": "319338.84",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000027",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "67061.16",
+      "TOTAL": "386400.00"
+    }
+  },
+  {
+    "file_name": "archivo_1.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "02/12/2023",
+      "NUMERO_DOCUMENTO": "00000482",
+      "PRIMER_COMPROBANTE": "00012382",
+      "ULTIMO_COMPROBANTE": "00012423",
+      "GRAVADO": "776115.67",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000042",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "162984.33",
+      "TOTAL": "939100.00"
+    }
+  },
+  {
+    "file_name": "archivo_29.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "14/11/2023",
+      "NUMERO_DOCUMENTO": "00000467",
+      "PRIMER_COMPROBANTE": "00011934",
+      "ULTIMO_COMPROBANTE": "00011958",
+      "GRAVADO": "433884.31",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000025",
+      "COMP_CANCELADOS": "00000001",
+      "IVA": "91115.69",
+      "TOTAL": "525000.00"
+    }
+  },
+  {
+    "file_name": "archivo_229.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "11/02/2023",
+      "NUMERO_DOCUMENTO": "00000239",
+      "PRIMER_COMPROBANTE": "00006115",
+      "ULTIMO_COMPROBANTE": "00006134",
+      "GRAVADO": "213057.88",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000020",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "44742.12",
+      "TOTAL": "257800.00"
+    }
+  },
+  {
+    "file_name": "archivo_258.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000206",
+      "FECHA": "07/01/2023",
+      "PRIMER_COMPROBANTE": "00005507",
+      "ULTIMO_COMPROBANTE": "00005537",
+      "GRAVADO": "241652.88",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000031",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "50747.12",
+      "TOTAL": "292400.00"
+    }
+  },
+  {
+    "file_name": "archivo_41.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000478",
+      "FECHA": "28/11/2023",
+      "PRIMER_COMPROBANTE": "00012245",
+      "ULTIMO_COMPROBANTE": "00012268",
+      "GRAVADO": "430661.16",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000024",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "90438.84",
+      "TOTAL": "521100.00"
+    }
+  },
+  {
+    "file_name": "archivo_61.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "13/10/2023",
+      "NUMERO_DOCUMENTO": "00000441",
+      "PRIMER_COMPROBANTE": "00011215",
+      "ULTIMO_COMPROBANTE": "00011249",
+      "GRAVADO": "699090.91",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000035",
+      "COMP_CANCELADOS": "0000000",
+      "IVA": "146809.09",
+      "TOTAL": "845900.00"
+    }
+  },
+  {
+    "file_name": "archivo_205.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000263",
+      "FECHA": "13/03/2023",
+      "PRIMER_COMPROBANTE": "00006635",
+      "ULTIMO_COMPROBANTE": "00006646",
+      "GRAVADO": "124785.12",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000012",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "26204.88",
+      "TOTAL": "150990.00"
+    }
+  },
+  {
+    "file_name": "archivo_58.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "10/10/2023",
+      "NUMERO_DOCUMENTO": "00000438",
+      "PRIMER_COMPROBANTE": "00011128",
+      "ULTIMO_COMPROBANTE": "00011157",
+      "GRAVADO": "550743.81",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000030",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "115656.19",
+      "TOTAL": "666400.00"
+    }
+  },
+  {
+    "file_name": "archivo_25.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "29/12/2023",
+      "NUMERO_DOCUMENTO": "00000505",
+      "IVA": "281556.20",
+      "TOTAL": "1622300.00"
+    }
+  },
+  {
+    "file_name": "archivo_218.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "30/03/2023",
+      "NUMERO_DOCUMENTO": "00000277",
+      "PRIMER_COMPROBANTE": "00006873",
+      "ULTIMO_COMPROBANTE": "00006880",
+      "GRAVADO": "72148.77",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000008",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "15151.23",
+      "TOTAL": "87300.00"
+    }
+  },
+  {
+    "file_name": "archivo_153.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "23/05/2023",
+      "NUMERO_DOCUMENTO": "00000321",
+      "PRIMER_COMPROBANTE": "00007762",
+      "ULTIMO_COMPROBANTE": "00007780",
+      "GRAVADO": "268099.17",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000019",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "56300.83",
+      "TOTAL": "324400.00"
+    }
+  },
+  {
+    "file_name": "archivo_158.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000316",
+      "FECHA": "17/05/2023",
+      "PRIMER_COMPROBANTE": "00007672",
+      "ULTIMO_COMPROBANTE": "00007687",
+      "GRAVADO": "219413.23",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000016",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "46076.77",
+      "TOTAL": "265490.00"
+    }
+  },
+  {
+    "file_name": "archivo_51.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000431",
+      "FECHA": "02/10/2023",
+      "PRIMER_COMPROBANTE": "00010930",
+      "ULTIMO_COMPROBANTE": "00010959",
+      "GRAVADO": "531652.89",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000030",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "111647.11",
+      "TOTAL": "643300.00"
+    }
+  },
+  {
+    "file_name": "archivo_56.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "07/10/2023",
+      "NUMERO_DOCUMENTO": "00000436",
+      "PRIMER_COMPROBANTE": "00011056",
+      "ULTIMO_COMPROBANTE": "00011096",
+      "GRAVADO": "605950.37",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000041",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "127249.63",
+      "TOTAL": "733200.00"
+    }
+  },
+  {
+    "file_name": "archivo_84.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "10/08/2023",
+      "NUMERO_DOCUMENTO": "00000388",
+      "PRIMER_COMPROBANTE": "00009976",
+      "ULTIMO_COMPROBANTE": "00009987",
+      "GRAVADO": "147851.24",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "COMP_GENERADOS": "00000012",
+      "DESCUENTOS": "0.00",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "31048.76",
+      "TOTAL": "178900.00"
+    }
+  },
+  {
+    "file_name": "archivo_102.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "27/07/2023",
+      "NUMERO_DOCUMENTO": "00000375",
+      "PRIMER_COMPROBANTE": "00009743",
+      "ULTIMO_COMPROBANTE": "00009759",
+      "GRAVADO": "167355.40",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000017",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "35144.60",
+      "TOTAL": "202500.00"
+    }
+  },
+  {
+    "file_name": "archivo_185.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000293",
+      "FECHA": "19/04/2023",
+      "PRIMER_COMPROBANTE": "00007193",
+      "ULTIMO_COMPROBANTE": "00007208",
+      "GRAVADO": "208347.08",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000016",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "43752.92",
+      "TOTAL": "252100.00"
+    }
+  },
+  {
+    "file_name": "archivo_186.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "20/04/2023",
+      "NUMERO_DOCUMENTO": "00000294",
+      "PRIMER_COMPROBANTE": "00007209",
+      "ULTIMO_COMPROBANTE": "00007222",
+      "GRAVADO": "223702.47",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000014",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "46977.53",
+      "TOTAL": "270680.00"
+    }
+  },
+  {
+    "file_name": "archivo_60.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "12/10/2023",
+      "NUMERO_DOCUMENTO": "00000440",
+      "PRIMER_COMPROBANTE": "00011191",
+      "ULTIMO_COMPROBANTE": "00011214",
+      "GRAVADO": "545537.18",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000024",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "114562.82",
+      "TOTAL": "660100.00"
+    }
+  },
+  {
+    "file_name": "archivo_65.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "19/10/2023",
+      "NUMERO_DOCUMENTO": "00000445",
+      "PRIMER_COMPROBANTE": "00011342",
+      "ULTIMO_COMPROBANTE": "00011357",
+      "GRAVADO": "249504.13",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000016",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "52395.87",
+      "TOTAL": "301900.00"
+    }
+  },
+  {
+    "file_name": "archivo_200.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "07/03/2023",
+      "NUMERO_DOCUMENTO": "00000258",
+      "PRIMER_COMPROBANTE": "00006533",
+      "ULTIMO_COMPROBANTE": "00006544",
+      "GRAVADO": "128429.74",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000012",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "26970.26",
+      "TOTAL": "155400.00"
+    }
+  },
+  {
+    "file_name": "archivo_210.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000269",
+      "FECHA": "20/03/2023",
+      "PRIMER_COMPROBANTE": "00006752",
+      "ULTIMO_COMPROBANTE": "00006767",
+      "GRAVADO": "165206.61",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000016",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "34693.39",
+      "TOTAL": "199900.00"
+    }
+  },
+  {
+    "file_name": "archivo_195.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "01/03/2023",
+      "NUMERO_DOCUMENTO": "00000253",
+      "PRIMER_COMPROBANTE": "00006420",
+      "ULTIMO_COMPROBANTE": "00006444",
+      "GRAVADO": "194545.45",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000025",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "40854.55",
+      "TOTAL": "235400.00"
+    }
+  },
+  {
+    "file_name": "archivo_159.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "16/05/2023",
+      "NUMERO_DOCUMENTO": "00000315",
+      "PRIMER_COMPROBANTE": "00007653",
+      "ULTIMO_COMPROBANTE": "00007671",
+      "GRAVADO": "285528.93",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000019",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "59961.07",
+      "TOTAL": "345490.00"
+    }
+  },
+  {
+    "file_name": "archivo_177.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "10/04/2023",
+      "NUMERO_DOCUMENTO": "00000285",
+      "PRIMER_COMPROBANTE": "00007039",
+      "ULTIMO_COMPROBANTE": "00007051",
+      "GRAVADO": "161570.24",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000013",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "33929.76",
+      "TOTAL": "195500.00"
+    }
+  },
+  {
+    "file_name": "archivo_107.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000369",
+      "FECHA": "20/07/2023",
+      "PRIMER_COMPROBANTE": "00009598",
+      "ULTIMO_COMPROBANTE": "00009624",
+      "GRAVADO": "347685.94",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "DESCUENTOS",
+      "COMP_GENERADOS": "00000027",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "73014.06",
+      "TOTAL": "420700.00"
+    }
+  },
+  {
+    "file_name": "archivo_110.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "17/07/2023",
+      "NUMERO_DOCUMENTO": "00000366",
+      "PRIMER_COMPROBANTE": "00009530",
+      "ULTIMO_COMPROBANTE": "00009550",
+      "GRAVADO": "282148.76",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000021",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "59251.24",
+      "TOTAL": "341400.00"
+    }
+  },
+  {
+    "file_name": "archivo_192.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000300",
+      "FECHA": "27/04/2023",
+      "PRIMER_COMPROBANTE": "00007320",
+      "ULTIMO_COMPROBANTE": "00007342",
+      "GRAVADO": "270743.79",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000023",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "56856.21",
+      "TOTAL": "327600.00"
+    }
+  },
+  {
+    "file_name": "archivo_213.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "23/03/2023",
+      "NUMERO_DOCUMENTO": "00000272",
+      "PRIMER_COMPROBANTE": "00006797",
+      "ULTIMO_COMPROBANTE": "00006809",
+      "GRAVADO": "114214.86",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000013",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "23985.14",
+      "TOTAL": "138200.00"
+    }
+  },
+  {
+    "file_name": "archivo_93.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "22/08/2024",
+      "NUMERO_DOCUMENTO": "00000397",
+      "PRIMER_COMPROBANTE": "00010168",
+      "ULTIMO_COMPROBANTE": "00010181",
+      "GRAVADO": "207768.61",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000014",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "43631.39",
+      "TOTAL": "251400.00"
+    }
+  },
+  {
+    "file_name": "archivo_86.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "12/08/2023",
+      "NUMERO_DOCUMENTO": "0000390",
+      "IVA": "57966.95",
+      "TOTAL": "334000.00",
+      "PRIMER_COMPROBANTE": "00010010",
+      "ULTIMO_COMPROBANTE": "00010031",
+      "GRAVADO": "276033.05",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000022",
+      "COMP_CANCELADOS": "00000000"
+    }
+  },
+  {
+    "file_name": "archivo_232.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "08/02/2023",
+      "NUMERO_DOCUMENTO": "00000236",
+      "PRIMER_COMPROBANTE": "00006054",
+      "ULTIMO_COMPROBANTE": "00006072",
+      "GRAVADO": "202975.20",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0,00",
+      "DESCUENTOS": "0,00",
+      "COMP_GENERADOS": "00000019",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "42624.80",
+      "TOTAL": "245600.00"
+    }
+  },
+  {
+    "file_name": "archivo_225.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000243",
+      "FECHA": "16/02/2023",
+      "PRIMER_COMPROBANTE": "00006181",
+      "ULTIMO_COMPROBANTE": "00006196",
+      "GRAVADO": "158256.21",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000016",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "33233.79",
+      "TOTAL": "191490.00"
+    }
+  },
+  {
+    "file_name": "archivo_112.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "14/07/2023",
+      "NUMERO_DOCUMENTO": "00000364",
+      "PRIMER_COMPROBANTE": "00009477",
+      "ULTIMO_COMPROBANTE": "00009507",
+      "GRAVADO": "452314.06",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000031",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "94985.94",
+      "TOTAL": "547300.00"
+    }
+  },
+  {
+    "file_name": "archivo_81.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "08/08/2023",
+      "NUMERO_DOCUMENTO": "00000386",
+      "PRIMER_COMPROBANTE": "00009939",
+      "ULTIMO_COMPROBANTE": "00009958",
+      "GRAVADO": "264462.81",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000020",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "55537.19",
+      "TOTAL": "320000.00"
+    }
+  },
+  {
+    "file_name": "archivo_45.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000461",
+      "FECHA": "07/11/2023",
+      "TOTAL": "604200.00"
+    }
+  },
+  {
+    "file_name": "archivo_12.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000492",
+      "FECHA": "14/12/2023",
+      "PRIMER_COMPROBANTE": "00012758",
+      "ULTIMO_COMPROBANTE": "00012806",
+      "GRAVADO": "1092892.54",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000049",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "229507.46",
+      "TOTAL": "1322400.00"
+    }
+  },
+  {
+    "file_name": "archivo_19.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000499",
+      "FECHA": "22/12/2023",
+      "PRIMER_COMPROBANTE": "00013183",
+      "ULTIMO_COMPROBANTE": " 00013342",
+      "GRAVADO": "3809173.52",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000160",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "799926.48",
+      "TOTAL": "4609100.00"
+    }
+  },
+  {
+    "file_name": "archivo_164.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "10/05/2023",
+      "NUMERO_DOCUMENTO": "00000310",
+      "PRIMER_COMPROBANTE": "00007552",
+      "ULTIMO_COMPROBANTE": "00007564",
+      "GRAVADO": "162727.28",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000013",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "34172.72",
+      "TOTAL": "196900.00"
+    }
+  },
+  {
+    "file_name": "archivo_148.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000326",
+      "FECHA": "30/05/2023",
+      "PRIMER_COMPROBANTE": "00007911",
+      "ULTIMO_COMPROBANTE": "00007925",
+      "GRAVADO": "222231.39",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000015",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "46668.61",
+      "TOTAL": "268900.00"
+    }
+  },
+  {
+    "file_name": "archivo_128.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "24/06/2023",
+      "NUMERO_DOCUMENTO": "00000347",
+      "PRIMER_COMPROBANTE": "00009042",
+      "ULTIMO_COMPROBANTE": "00009090",
+      "GRAVADO": "724008.24",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000049",
+      "COMP_CANCELADOS": "0000000",
+      "IVA": "152041.76",
+      "TOTAL": "876050.00"
+    }
+  },
+  {
+    "file_name": "archivo_261.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000202",
+      "FECHA": "03/01/2023",
+      "PRIMER_COMPROBANTE": "00005388",
+      "ULTIMO_COMPROBANTE": "00005414",
+      "GRAVADO": "219421.47",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000027",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "46078.53",
+      "TOTAL": "265500.00"
+    }
+  },
+  {
+    "file_name": "archivo_63.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "17/10/2023",
+      "NUMERO_DOCUMENTO": "00000443",
+      "PRIMER_COMPROBANTE": "00011301",
+      "ULTIMO_COMPROBANTE": "00011317",
+      "GRAVADO": "272727.28",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000017",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "57272.72",
+      "TOTAL": "330000.00"
+    }
+  },
+  {
+    "file_name": "archivo_193.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "28/04/2023",
+      "NUMERO_DOCUMENTO": "00000301",
+      "PRIMER_COMPROBANTE": "00007343",
+      "ULTIMO_COMPROBANTE": "00007374",
+      "GRAVADO": "50652062",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000032",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "106369.38",
+      "TOTAL": "612890.00"
+    }
+  },
+  {
+    "file_name": "archivo_143.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "06/06/2023",
+      "NUMERO_DOCUMENTO": "00000332",
+      "PRIMER_COMPROBANTE": "00008066",
+      "ULTIMO_COMPROBANTE": "00008086",
+      "GRAVADO": "374462.81",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000021",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "78637.19",
+      "TOTAL": "453100.00"
+    }
+  },
+  {
+    "file_name": "archivo_52.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "03/10/2023",
+      "NUMERO_DOCUMENTO": "00000432",
+      "PRIMER_COMPROBANTE": "00010960",
+      "ULTIMO_COMPROBANTE": "00010984",
+      "GRAVADO": "348677.69",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000025",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "73222.31",
+      "TOTAL": "421900.00"
+    }
+  },
+  {
+    "file_name": "archivo_139.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000336",
+      "FECHA": "10/06/2023",
+      "PRIMER_COMPROBANTE": "00008166",
+      "ULTIMO_COMPROBANTE": "0008235",
+      "GRAVADO": "1044132.20",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000070",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "219267.80",
+      "TOTAL": "1263400.00"
+    }
+  },
+  {
+    "file_name": "archivo_132.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "20/06/2023",
+      "NUMERO_DOCUMENTO": "00000343",
+      "PRIMER_COMPROBANTE": "00008944",
+      "ULTIMO_COMPROBANTE": "00008955",
+      "GRAVADO": "126438.02",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000012",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "26551.98",
+      "TOTAL": "152990.00"
+    }
+  },
+  {
+    "file_name": "archivo_165.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "09/05/2023",
+      "NUMERO_DOCUMENTO": "00000309",
+      "PRIMER_COMPROBANTE": "00007537",
+      "ULTIMO_COMPROBANTE": "00007551",
+      "GRAVADO": "241735.52",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000015",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "50764.48",
+      "TOTAL": "292500.00"
+    }
+  },
+  {
+    "file_name": "archivo_74.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000454",
+      "FECHA": "30/10/2023",
+      "PRIMER_COMPROBANTE": "00011591",
+      "ULTIMO_COMPROBANTE": "00011612",
+      "GRAVADO": "589008.26",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000022",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "123691.74",
+      "TOTAL": "712700.00"
+    }
+  },
+  {
+    "file_name": "archivo_36.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "23/11/2073",
+      "NUMERO_DOCUMENTO": "00000474",
+      "PRIMER_COMPROBANTE": "00012130",
+      "ULTIMO_COMPROBANTE": "00012146",
+      "GRAVADO": "350578.52",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000017",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "73621.48",
+      "TOTAL": "424200.00"
+    }
+  },
+  {
+    "file_name": "archivo_236.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "03/02/2023",
+      "NUMERO_DOCUMENTO": "00000232",
+      "PRIMER_COMPROBANTE": "00005960",
+      "ULTIMO_COMPROBANTE": "00005983",
+      "GRAVADO": "227107.42",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000024",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "47692.58",
+      "TOTAL": "274800.00"
+    }
+  },
+  {
+    "file_name": "archivo_130.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "22/06/2023",
+      "NUMERO_DOCUMENTO": "00000345",
+      "PRIMER_COMPROBANTE": "00008987",
+      "ULTIMO_COMPROBANTE": "00009006",
+      "GRAVADO": "297685.95",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000020",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "62514.05",
+      "TOTAL": "360200.00"
+    }
+  },
+  {
+    "file_name": "archivo_15.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "18/12/2023",
+      "NUMERO_DOCUMENTO": "00000495",
+      "PRIMER_COMPROBANTE": "00012928",
+      "ULTIMO_COMPROBANTE": "00012960",
+      "GRAVADO": "777933.85",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000033",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "163366.15",
+      "TOTAL": "941300.00"
+    }
+  },
+  {
+    "file_name": "archivo_150.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "27/05/2023"
+    }
+  },
+  {
+    "file_name": "archivo_123.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000352",
+      "FECHA": "30/06/2023",
+      "PRIMER_COMPROBANTE": "00009168",
+      "ULTIMO_COMPROBANTE": "00009197",
+      "GRAVADO": "382314.05",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000030",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "80285.95",
+      "TOTAL": "462600.00"
+    }
+  },
+  {
+    "file_name": "archivo_248.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "19/01/2023",
+      "NUMERO_DOCUMENTO": "00000219",
+      "PRIMER_COMPROBANTE": "00005723",
+      "ULTIMO_COMPROBANTE": "00005739",
+      "GRAVADO": "118760.35",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000017",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "24939.65",
+      "TOTAL": "143700.00"
+    }
+  },
+  {
+    "file_name": "archivo_23.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "27/12/2023",
+      "NUMERO_DOCUMENTO": "00000503",
+      "PRIMER_COMPROBANTE": "00013620",
+      "ULTIMO_COMPROBANTE": "00013677",
+      "GRAVADO": "1528181.80",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000058",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "320918.20",
+      "TOTAL": "1849100.00"
+    }
+  },
+  {
+    "file_name": "archivo_137.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "13/06/2023",
+      "NUMERO_DOCUMENTO": "00000338",
+      "PRIMER_COMPROBANTE": "00008270",
+      "ULTIMO_COMPROBANTE": "00008315",
+      "GRAVADO": "772644.63",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000046",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "162255.37",
+      "TOTAL": "934900.00"
+    }
+  },
+  {
+    "file_name": "archivo_78.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "04/08/2023",
+      "NUMERO_DOCUMENTO": "00000383",
+      "PRIMER_COMPROBANTE": "00009863",
+      "ULTIMO_COMPROBANTE": "00009892",
+      "GRAVADO": "419157.00",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000030",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "88023.00",
+      "TOTAL": "507180.00"
+    }
+  },
+  {
+    "file_name": "archivo_221.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "25/02/2023",
+      "NUMERO_DOCUMENTO": "00000250",
+      "PRIMER_COMPROBANTE": "00006324",
+      "ULTIMO_COMPROBANTE": "00006367",
+      "GRAVADO": "430735.54",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000044",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "90454.46",
+      "TOTAL": "521190.00"
+    }
+  },
+  {
+    "file_name": "archivo_187.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "21/04/2023",
+      "NUMERO_DOCUMENTO": "00000295",
+      "PRIMER_COMPROBANTE": "00007223",
+      "ULTIMO_COMPROBANTE": "00007235",
+      "GRAVADO": "155438.00",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000013",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "32642.00",
+      "TOTAL": "188080.00"
+    }
+  },
+  {
+    "file_name": "archivo_220.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "27/02/2023",
+      "NUMERO_DOCUMENTO": "00000251",
+      "PRIMER_COMPROBANTE": "00006368",
+      "ULTIMO_COMPROBANTE": "00006393",
+      "GRAVADO": "225892.58",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000026",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "47437.02",
+      "TOTAL": "273330.00"
+    }
+  },
+  {
+    "file_name": "archivo_212.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "22/03/2023",
+      "NUMERO_DOCUMENTO": "00000271",
+      "PRIMER_COMPROBANTE": "00006781",
+      "ULTIMO_COMPROBANTE": "00006796",
+      "GRAVADO": "159082.63",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000016",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "33407.37",
+      "TOTAL": "192490.00"
+    }
+  },
+  {
+    "file_name": "archivo_40.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "27/11/2023",
+      "NUMERO_DOCUMENTO": "00000477",
+      "PRIMER_COMPROBANTE": "00012224",
+      "ULTIMO_COMPROBANTE": "00012244",
+      "GRAVADO": "421983.51",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000021",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "88616.49",
+      "TOTAL": "510600.00"
+    }
+  },
+  {
+    "file_name": "archivo_216.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "28/03/2023",
+      "NUMERO_DOCUMENTO": "00000275",
+      "PRIMER_COMPROBANTE": "00006852",
+      "ULTIMO_COMPROBANTE": "00006860",
+      "GRAVADO": "111231.41",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000009",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "23358.59",
+      "TOTAL": "134590.00"
+    }
+  },
+  {
+    "file_name": "archivo_161.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "13/05/2023",
+      "NUMERO_DOCUMENTO": "00000313",
+      "PRIMER_COMPROBANTE": "00007612",
+      "ULTIMO_COMPROBANTE": "00007638",
+      "GRAVADO": "380413.21",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000027",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "79886.79",
+      "TOTAL": "460300.00"
+    }
+  },
+  {
+    "file_name": "archivo_6.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "07/12/2023",
+      "NUMERO_DOCUMENTO": "00000486",
+      "PRIMER_COMPROBANTE": "00012534",
+      "ULTIMO_COMPROBANTE": "00012577",
+      "GRAVADO": "989256.19",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000044",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "207743.81",
+      "TOTAL": "1197000.00"
+    }
+  },
+  {
+    "file_name": "archivo_32.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "17/11/2023",
+      "NUMERO_DOCUMENTO": "00000470",
+      "PRIMER_COMPROBANTE": "00012014",
+      "ULTIMO_COMPROBANTE": "00012046",
+      "GRAVADO": "904876.05",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000033",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "190023.95",
+      "TOTAL": "1094900.00"
+    }
+  },
+  {
+    "file_name": "archivo_71.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "26/10/2023",
+      "NUMERO_DOCUMENTO": "00000451",
+      "PRIMER_COMPROBANTE": "00011482",
+      "ULTIMO_COMPROBANTE": "00011518",
+      "GRAVADO": "659504.18",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000037",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "138495.82",
+      "TOTAL": "798000.00"
+    }
+  },
+  {
+    "file_name": "archivo_16.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000496",
+      "FECHA": "19/12/2023",
+      "PRIMER_COMPROBANTE": "00012961",
+      "ULTIMO_COMPROBANTE": "00013015",
+      "GRAVADO": "1229504.13",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000055",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "258195.87",
+      "TOTAL": "1487700.00"
+    }
+  },
+  {
+    "file_name": "archivo_90.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "17/08/2023",
+      "NUMERO_DOCUMENTO": "00000394",
+      "PRIMER_COMPROBANTE": "00010086",
+      "ULTIMO_COMPROBANTE": "00010108",
+      "GRAVADO": "381570.25",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000023",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "80129.75",
+      "TOTAL": "461700.00"
+    }
+  },
+  {
+    "file_name": "archivo_14.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000494",
+      "FECHA": "16/12/2023",
+      "PRIMER_COMPROBANTE": "00012856",
+      "ULTIMO_COMPROBANTE": "00012927",
+      "GRAVADO": "1799834.65",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000072",
+      "COMP_CANCELADOS": "00000001",
+      "IVA": "377965.35",
+      "TOTAL": "2177800.00"
+    }
+  },
+  {
+    "file_name": "archivo_166.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "08/05/2023",
+      "NUMERO_DOCUMENTO": "00000308",
+      "PRIMER_COMPROBANTE": "00007519",
+      "ULTIMO_COMPROBANTE": "00007536",
+      "GRAVADO": "246694.20",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000018",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "51805.80",
+      "TOTAL": "298500.00"
+    }
+  },
+  {
+    "file_name": "archivo_67.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "0000447",
+      "FECHA": "21/10/2023",
+      "PRIMER_COMPROBANTE": "00011390",
+      "ULTIMO_COMPROBANTE": "00011421",
+      "GRAVADO": "574049.57",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000032",
+      "COMP_CANCELADOS": "0000000",
+      "IVA": "120550.43",
+      "TOTAL": "694600.00"
+    }
+  },
+  {
+    "file_name": "archivo_8.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "09/12/2024",
+      "NUMERO_DOCUMENTO": "00000488",
+      "PRIMER_COMPROBANTE": "00012598",
+      "ULTIMO_COMPROBANTE": "00012670",
+      "GRAVADO": "1678429.74",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000073",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "352470.26",
+      "TOTAL": "2030900.00"
+    }
+  },
+  {
+    "file_name": "archivo_157.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000317",
+      "FECHA": "18/05/2023",
+      "PRIMER_COMPROBANTE": "00007688",
+      "ULTIMO_COMPROBANTE": "00007701",
+      "GRAVADO": "195619.83",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000014",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "41080.17",
+      "TOTAL": "236700.00"
+    }
+  },
+  {
+    "file_name": "archivo_245.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "23/01/2023",
+      "NUMERO_DOCUMENTO": "00000222",
+      "PRIMER_COMPROBANTE": "00005760",
+      "ULTIMO_COMPROBANTE": "00005779",
+      "GRAVADO": "197760.32",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000020",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "41529.68",
+      "TOTAL": "239290.00"
+    }
+  },
+  {
+    "file_name": "archivo_226.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "15/02/2023",
+      "NUMERO_DOCUMENTO": "00000242",
+      "PRIMER_COMPROBANTE": "00006162",
+      "ULTIMO_COMPROBANTE": "00006180",
+      "GRAVADO": "167272.73",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000019",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "35121.27",
+      "TOTAL": "202400.00"
+    }
+  },
+  {
+    "file_name": "archivo_4.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "05/12/2023",
+      "NUMERO_DOCUMENTO": "00000484",
+      "PRIMER_COMPROBANTE": "00012454",
+      "ULTIMO_COMPROBANTE": "00012480",
+      "GRAVADO": "492644.63",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000027",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "103455.37",
+      "TOTAL": "596100.00"
+    }
+  },
+  {
+    "file_name": "archivo_127.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "26/06/2023",
+      "NUMERO_DOCUMENTO": "00000348",
+      "PRIMER_COMPROBANTE": "00009091",
+      "ULTIMO_COMPROBANTE": "00009108",
+      "GRAVADO": "271900.82",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000018",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "57099.18",
+      "TOTAL": "329000.00"
+    }
+  },
+  {
+    "file_name": "archivo_240.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000227",
+      "FECHA": "28/01/2023",
+      "PRIMER_COMPROBANTE": "00005863",
+      "ULTIMO_COMPROBANTE": "00005884",
+      "GRAVADO": "196363.64",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000022",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "41236.36",
+      "TOTAL": "237600.00"
+    }
+  },
+  {
+    "file_name": "archivo_242.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "26/01/2023",
+      "NUMERO_DOCUMENTO": "00000225",
+      "PRIMER_COMPROBANTE": "00005813",
+      "ULTIMO_COMPROBANTE": "00005837",
+      "GRAVADO": "232396.68",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000025",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "48803.32",
+      "TOTAL": "281200.00"
+    }
+  },
+  {
+    "file_name": "archivo_233.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "07/02/2023",
+      "NUMERO_DOCUMENTO": "00000235",
+      "PRIMER_COMPROBANTE": "00006028",
+      "ULTIMO_COMPROBANTE": "00006053",
+      "GRAVADO": "238842.98",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000026",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "50157.02",
+      "TOTAL": "289000.00"
+    }
+  },
+  {
+    "file_name": "archivo_68.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000448",
+      "FECHA": "23/10/2023",
+      "PRIMER_COMPROBANTE": "00011422",
+      "ULTIMO_COMPROBANTE": "00011442",
+      "GRAVADO": "322148.76",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000021",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "67651.24",
+      "TOTAL": "389800.00"
+    }
+  },
+  {
+    "file_name": "archivo_231.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "09/02/2023",
+      "NUMERO_DOCUMENTO": "00000237",
+      "PRIMER_COMPROBANTE": "00006073",
+      "ULTIMO_COMPROBANTE": "00006091",
+      "GRAVADO": "208760.33",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000019",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "43839.67",
+      "TOTAL": "252600.00"
+    }
+  },
+  {
+    "file_name": "archivo_33.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000471",
+      "FECHA": "18/11/2023",
+      "PRIMER_COMPROBANTE": "00012047",
+      "ULTIMO_COMPROBANTE": "00012084",
+      "GRAVADO": "773553.58",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000038",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "162446.32",
+      "TOTAL": "936000.00"
+    }
+  },
+  {
+    "file_name": "archivo_119.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "06/07/2023",
+      "NUMERO_DOCUMENTO": "00000357",
+      "PRIMER_COMPROBANTE": "00009294",
+      "ULTIMO_COMPROBANTE": "00009321",
+      "GRAVADO": "353801.68",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000028",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "74298.32",
+      "TOTAL": "428100.00"
+    }
+  },
+  {
+    "file_name": "archivo_215.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000274",
+      "FECHA": "27/03/2023",
+      "PRIMER_COMPROBANTE": "00006833",
+      "ULTIMO_COMPROBANTE": "00006851",
+      "GRAVADO": "208016.55",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000019",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "43683.45",
+      "TOTAL": "251700.00"
+    }
+  },
+  {
+    "file_name": "archivo_204.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000262",
+      "FECHA": "11/03/2023",
+      "PRIMER_COMPROBANTE": "00006605",
+      "ULTIMO_COMPROBANTE": "00006634",
+      "GRAVADO": "312975.19",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000030",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "65724.81",
+      "TOTAL": "378700.00"
+    }
+  },
+  {
+    "file_name": "archivo_256.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "10/01/2023",
+      "NUMERO_DOCUMENTO": "00000210",
+      "PRIMER_COMPROBANTE": "00005553",
+      "ULTIMO_COMPROBANTE": "00005570",
+      "GRAVADO": "131157.01",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000018",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "27542.99",
+      "TOTAL": "158700.00"
+    }
+  },
+  {
+    "file_name": "archivo_5.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "06/12/2023",
+      "NUMERO_DOCUMENTO": "00000485",
+      "PRIMER_COMPROBANTE": "00012481",
+      "ULTIMO_COMPROBANTE": "00012533",
+      "GRAVADO": "1146198.32",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000053",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "240701.68",
+      "TOTAL": "1386900.00"
+    }
+  },
+  {
+    "file_name": "archivo_69.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "24/10/2023",
+      "PRIMER_COMPROBANTE": "00011443",
+      "ULTIMO_COMPROBANTE": "00011458",
+      "GRAVADO": "240909.11",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000016",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "50590.89",
+      "TOTAL": "291500.00"
+    }
+  },
+  {
+    "file_name": "archivo_135.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "15/06/2023",
+      "NUMERO_DOCUMENTO": "00000340",
+      "PRIMER_COMPROBANTE": "00008393",
+      "ULTIMO_COMPROBANTE": "00008491",
+      "GRAVADO": "1765942.16",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000099",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "370847.84",
+      "TOTAL": "2136790.00"
+    }
+  },
+  {
+    "file_name": "archivo_211.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "21/03/2023",
+      "NUMERO_DOCUMENTO": "00000270",
+      "PRIMER_COMPROBANTE": "00006768",
+      "ULTIMO_COMPROBANTE": "00006780",
+      "GRAVADO": "153553.71",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000013",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "32246.29",
+      "TOTAL": "185800.00"
+    }
+  },
+  {
+    "file_name": "archivo_156.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "19/05/2023",
+      "NUMERO_DOCUMENTO": "00000318",
+      "PRIMER_COMPROBANTE": "00007702",
+      "ULTIMO_COMPROBANTE": "00007721",
+      "GRAVADO": "281735.52",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000020",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "59164.48",
+      "TOTAL": "340900.00"
+    }
+  },
+  {
+    "file_name": "archivo_111.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "15/07/2023",
+      "NUMERO_DOCUMENTO": "00000365"
+    }
+  },
+  {
+    "file_name": "archivo_73.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "28/10/2023",
+      "NUMERO_DOCUMENTO": "00000453",
+      "PRIMER_COMPROBANTE": "00011560",
+      "ULTIMO_COMPROBANTE": "00011590",
+      "GRAVADO": "637454.55",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000031",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "133865.45",
+      "TOTAL": "771320.00"
+    }
+  },
+  {
+    "file_name": "archivo_260.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "04/01/2023",
+      "NUMERO_DOCUMENTO": "00000203",
+      "PRIMER_COMPROBANTE": "00005415",
+      "ULTIMO_COMPROBANTE": "00005447",
+      "GRAVADO": "317752.06",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000033",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "65721.94",
+      "TOTAL": "384480.00"
+    }
+  },
+  {
+    "file_name": "archivo_196.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "02/03/2023",
+      "NUMERO_DOCUMENTO": "00000254",
+      "PRIMER_COMPROBANTE": "00006445",
+      "ULTIMO_COMPROBANTE": "00006467",
+      "GRAVADO": "185123.96",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000023",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "38876.04",
+      "TOTAL": "224000.00"
+    }
+  },
+  {
+    "file_name": "archivo_54.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000434",
+      "FECHA": "05/10/2023",
+      "PRIMER_COMPROBANTE": "00011003",
+      "ULTIMO_COMPROBANTE": "00011019",
+      "GRAVADO": "270247.93",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000017",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "56752.07",
+      "TOTAL": "327000.00"
+    }
+  },
+  {
+    "file_name": "archivo_95.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "24/08/2023",
+      "NUMERO_DOCUMENTO": "00000399",
+      "PRIMER_COMPROBANTE": "00010192",
+      "ULTIMO_COMPROBANTE": "00010202",
+      "GRAVADO": "167438.02",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000011",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "35161.98",
+      "TOTAL": "202600.00"
+    }
+  },
+  {
+    "file_name": "archivo_121.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "04/07/2023",
+      "NUMERO_DOCUMENTO": "00000355",
+      "PRIMER_COMPROBANTE": "00009251",
+      "ULTIMO_COMPROBANTE": "00009267",
+      "GRAVADO": "178677.68",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000017",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "37522.32",
+      "TOTAL": "216200.00"
+    }
+  },
+  {
+    "file_name": "archivo_257.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000209",
+      "FECHA": "09/01/2023",
+      "PRIMER_COMPROBANTE": "00005539",
+      "ULTIMO_COMPROBANTE": "00005552",
+      "GRAVADO": "143305.78",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000014",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "30094.22",
+      "TOTAL": "173400.00"
+    }
+  },
+  {
+    "file_name": "archivo_188.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "22/04/2023",
+      "NUMERO_DOCUMENTO": "00000296",
+      "PRIMER_COMPROBANTE": "00007236",
+      "ULTIMO_COMPROBANTE": "00007260",
+      "GRAVADO": "295115.70",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000025",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "61974.30",
+      "TOTAL": "357090.00"
+    }
+  },
+  {
+    "file_name": "archivo_24.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "28/12/2023",
+      "NUMERO_DOCUMENTO": "00000504",
+      "PRIMER_COMPROBANTE": "00013678",
+      "ULTIMO_COMPROBANTE": "00013730",
+      "GRAVADO": "1292975.19",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000053",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "271524.81",
+      "TOTAL": "1564500.00"
+    }
+  },
+  {
+    "file_name": "archivo_206.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "FECHA": "15/03/2023",
+      "NUMERO_DOCUMENTO": "00000265",
+      "PRIMER_COMPROBANTE": "00006656",
+      "ULTIMO_COMPROBANTE": "00006676",
+      "GRAVADO": "211074.38",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000021",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "44325.62",
+      "TOTAL": "255400.00"
+    }
+  },
+  {
+    "file_name": "archivo_208.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000267",
+      "FECHA": "17/03/2023",
+      "PRIMER_COMPROBANTE": "00006695",
+      "ULTIMO_COMPROBANTE": "00006719",
+      "GRAVADO": "246776.83",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000025",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "51823.17",
+      "TOTAL": "298600.00"
+    }
+  },
+  {
+    "file_name": "archivo_7.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000487",
+      "FECHA": "08/12/2023",
+      "PRIMER_COMPROBANTE": "00012578",
+      "ULTIMO_COMPROBANTE": "00012597"
+    }
+  },
+  {
+    "file_name": "archivo_37.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000475",
+      "FECHA": "24/11/2023",
+      "PRIMER_COMPROBANTE": "00012147",
+      "ULTIMO_COMPROBANTE": "00012173",
+      "GRAVADO": "476942.14",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000027",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "100157.86",
+      "TOTAL": "577100.00"
+    }
+  },
+  {
+    "file_name": "archivo_38.jpg",
+    "ground_truth": {
+      "CUIT_EMISOR": "20213102827",
+      "REGIMEN": "IVA Responsable Inscripto",
+      "NUMERO_DOCUMENTO": "00000476",
+      "FECHA": "25/11/2023",
+      "PRIMER_COMPROBANTE": "00012174",
+      "ULTIMO_COMPROBANTE": "00012223",
+      "GRAVADO": "908595.07",
+      "NO_GRAVADO": "0.00",
+      "EXENTO": "0.00",
+      "DESCUENTOS": "0.00",
+      "COMP_GENERADOS": "00000050",
+      "COMP_CANCELADOS": "00000000",
+      "IVA": "190804.93",
+      "TOTAL": "1099400.00"
+    }
+  }
+]
