@@ -165,25 +165,26 @@ print("Model Encoder Window Size:", model.config.encoder.window_size) # <-- Aña
 
 training_args = Seq2SeqTrainingArguments(
   output_dir="C:\\Users\\sanmi\\Documents\\Proyectos\\DonutModel\\models\\donut-ticket-fiscal-v0",
-  num_train_epochs=10,
-  per_device_train_batch_size=1,
-  per_device_eval_batch_size=1,
-  learning_rate=3e-5,
+  num_train_epochs=5,
+  per_device_train_batch_size=2,
+  per_device_eval_batch_size=2,
+  learning_rate=1e-5,
   weight_decay=0.01,
   predict_with_generate=True,
   generation_max_length=MAX_LENGTH,
-  generation_num_beams=1,
-  logging_steps=50,
-  eval_steps=72,               # evalúa al final de cada época
+  generation_num_beams=3,
+  logging_steps=25,
+  eval_steps=36,               # evalúa al final de cada época
   save_strategy="steps",
-  save_steps=72,
+  save_steps=36,
   eval_strategy="steps",
-  save_total_limit=2,
+  save_total_limit=3,
   fp16=True, # usar media precisión si la GPU lo soporta
-  load_best_model_at_end= True,
+  load_best_model_at_end=True,
   metric_for_best_model="eval_loss",
-  warmup_steps=50,
-  gradient_accumulation_steps=4  # duplica el batch size efectivo
+  warmup_steps=30,
+  gradient_accumulation_steps=2,  # duplica el batch size efectivo
+  label_smoothing_factor=0.1,  # ✅ Suavizado de etiquetas
 )
 
 def collate_fn(batch):
