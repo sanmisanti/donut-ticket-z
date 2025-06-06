@@ -1,8 +1,9 @@
 import torch
-from transformers import DonutProcessor, VisionEncoderDecoderModel, Seq2SeqTrainer, Seq2SeqTrainingArguments
+from transformers import DonutProcessor, VisionEncoderDecoderModel, Seq2SeqTrainer, Seq2SeqTrainingArguments, Trainer, TrainingArguments
 from PIL import Image
 import json
 from datasets import Dataset, Features, Image, Value
+from transformers import default_data_collator
 
 
 
@@ -163,16 +164,13 @@ print("Model Encoder Image Size:", model.config.encoder.image_size) # <-- Añadi
 print("Model Encoder Patch Size:", model.config.encoder.patch_size) # <-- Añadir verificación
 print("Model Encoder Window Size:", model.config.encoder.window_size) # <-- Añadir verificación
 
-training_args = Seq2SeqTrainingArguments(
-  output_dir="C:\\Users\\sanmi\\Documents\\Proyectos\\DonutModel\\models\\donut-ticket-fiscal-v0",
+training_args = TrainingArguments(
+  output_dir="/content/drive/MyDrive/donut_project/models/donut-ticket-fiscal-v1",
   num_train_epochs=5,
   per_device_train_batch_size=2,
   per_device_eval_batch_size=2,
   learning_rate=1e-5,
   weight_decay=0.01,
-  predict_with_generate=True,
-  generation_max_length=MAX_LENGTH,
-  generation_num_beams=3,
   logging_steps=25,
   eval_steps=36,               # evalúa al final de cada época
   save_strategy="steps",
@@ -183,41 +181,65 @@ training_args = Seq2SeqTrainingArguments(
   load_best_model_at_end=True,
   metric_for_best_model="eval_loss",
   warmup_steps=30,
-  gradient_accumulation_steps=2,  # duplica el batch size efectivo
-  label_smoothing_factor=0.1,  # ✅ Suavizado de etiquetas
+  gradient_accumulation_steps=2,
+  dataloader_pin_memory=False,
+  remove_unused_columns=False,  # ✅ Importante
 )
 
 def collate_fn(batch):
-    pixel_list = []
-    label_list = []
-
-    for x in batch:
-        # Obtener el objeto y desempaquetarlo si viene en lista
-        pv = x["pixel_values"]
-        lb = x["labels"]
-
-        # Si vienen en listas (incluso anidadas), convertirlos a tensor
+    """
+    Data collator personalizado para modelo Donut/VisionEncoderDecoder
+    """
+    pixel_values = []
+    labels = []
+    
+    for item in batch:
+        # Obtener pixel_values y labels
+        pv = item["pixel_values"]
+        lb = item["labels"]
+        
+        # Asegurar que son tensores
         if not torch.is_tensor(pv):
             pv = torch.tensor(pv)
         if not torch.is_tensor(lb):
             lb = torch.tensor(lb)
+            
+        pixel_values.append(pv)
+        labels.append(lb)
+    
+    # Apilar en batches
+    pixel_values = torch.stack(pixel_values)
+    labels = torch.stack(labels)
+    
+    return {
+        "pixel_values": pixel_values,
+        "labels": labels
+    }
 
-        pixel_list.append(pv)
-        label_list.append(lb)
+# ✅ Crear clase de Trainer personalizada
+class DonutTrainer(Trainer):
+    def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
+        """
+        Función de pérdida personalizada para Donut
+        """
+        labels = inputs.pop("labels")
+        
+        # Forward pass
+        outputs = model(**inputs, labels=labels)
+        
+        # Extraer pérdida
+        loss = outputs.loss
+        
+        return (loss, outputs) if return_outputs else loss
 
-    # Ahora sí apilamos en un batch tensorial
-    pixel_values = torch.stack(pixel_list)
-    labels       = torch.stack(label_list)
-
-    return {"pixel_values": pixel_values, "labels": labels}
-
-trainer = Seq2SeqTrainer(
+# ✅ Usar Trainer básico en lugar de Seq2SeqTrainer
+trainer = DonutTrainer(
     model=model,
     args=training_args,
     train_dataset=ds_train,
     eval_dataset=ds_val,
-    tokenizer=processor.tokenizer,  # todavía útil para logging/generación
-    data_collator=collate_fn        # solucionamos el error aquí
+    data_collator=collate_fn,
+    tokenizer=processor.tokenizer,  # Para logging
 )
 
 trainer.train()
