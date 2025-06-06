@@ -40,13 +40,15 @@ def predict_debug(image_path, ground_truth=None):
         outputs = model.generate(
             pixel_values=pixel_values,
             decoder_start_token_id=decoder_start_token_id,
-            max_length=300,  # ✅ Usar el mismo MAX_LENGTH del entrenamiento
+            max_length=300,
             pad_token_id=processor.tokenizer.pad_token_id,
             eos_token_id=processor.tokenizer.eos_token_id,
-            # ⚠️ QUITAR no_repeat_ngram_size para permitir patrones repetitivos válidos
-            early_stopping=True,
-            do_sample=False,  # ✅ Generación determinística
-            num_beams=1       # ✅ Consistente con entrenamiento
+            num_beams=3,              # ✅ Usar beam search
+            do_sample=False,          # ✅ Generación determinística
+            temperature=1.0,          # ✅ Sin randomness
+            repetition_penalty=1.1,   # ✅ Evitar repeticiones
+            length_penalty=1.0,       # ✅ No penalizar longitud
+            early_stopping=True,      # ✅ Parar en </s>
         )
 
     # 3) Decodifica y analiza

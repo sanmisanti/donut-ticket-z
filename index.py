@@ -164,9 +164,13 @@ print("Model Encoder Image Size:", model.config.encoder.image_size) # <-- Añadi
 print("Model Encoder Patch Size:", model.config.encoder.patch_size) # <-- Añadir verificación
 print("Model Encoder Window Size:", model.config.encoder.window_size) # <-- Añadir verificación
 
+# Verificar que estás usando el token correcto
+decoder_start_token_id = processor.tokenizer.convert_tokens_to_ids("<s>")
+print(f"🔧 Decoder start token ID: {decoder_start_token_id}")
+
 training_args = TrainingArguments(
   output_dir="/content/drive/MyDrive/donut_project/models/donut-ticket-fiscal-v1",
-  num_train_epochs=5,
+  num_train_epochs=15,
   per_device_train_batch_size=2,
   per_device_eval_batch_size=2,
   learning_rate=1e-5,
