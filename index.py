@@ -8,7 +8,7 @@ from transformers import default_data_collator
 
 
 NEW_SPECIAL_TOKENS = [] # Lista global de nuevos tokens
-CONST_TARGET_SIZE = {"height": 1536, "width": 384}
+CONST_TARGET_SIZE = {"height": 2048, "width": 512}
 REQUIRED_FIELDS = [
     "CUIT_EMISOR", "REGIMEN", "FECHA", "NUMERO_DOCUMENTO",
     "PRIMER_COMPROBANTE", "ULTIMO_COMPROBANTE",
@@ -109,7 +109,8 @@ processor.tokenizer.add_special_tokens({"additional_special_tokens": all_special
 # Ajustar resolución de imágenes (ancho, alto)
 processor.feature_extractor.size = {"height": CONST_TARGET_SIZE["height"], "width": CONST_TARGET_SIZE["width"]}
 processor.feature_extractor.do_resize = True
-processor.feature_extractor.do_align_long_axis = True
+processor.feature_extractor.do_align_long_axis = False
+processor.feature_extractor.do_normalize = True
 
 
 def transform(sample):
@@ -162,6 +163,19 @@ def transform(sample):
         print(f"🔤 Tokens: {len(input_ids)} tokens")
         print(f"📊 Input IDs (primeros 10): {input_ids[:10].tolist()}")
         print(f"📊 Labels (primeros 10): {labels[:10].tolist()}")
+    
+    if transform.debug_count <= 3:
+        print(f"🔍 DEBUG TRANSFORM #{transform.debug_count}")
+        print(f"📷 Imagen original size: {image.size}")
+        print(f"🎯 Target size configurado: {processor.feature_extractor.size}")
+        print(f"🖼️ Pixel values shape: {pixel_values.shape}")
+        print(f"📊 Pixel values min/max: {pixel_values.min():.3f}/{pixel_values.max():.3f}")
+        
+        # VERIFICAR SI LA IMAGEN SE PROCESÓ CORRECTAMENTE
+        expected_shape = (3, CONST_TARGET_SIZE["height"], CONST_TARGET_SIZE["width"])
+        if pixel_values.shape != expected_shape:
+            print(f"⚠️ WARNING: Shape inesperado! Esperado: {expected_shape}, Actual: {pixel_values.shape}")
+    
     
     return {
         "pixel_values": pixel_values, 
